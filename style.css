@@ -1,0 +1,86 @@
+
+.linear-text-gradient {
+    background: linear-gradient(to right, rgb(5, 5, 98), rgb(84, 84, 227), #a10ee6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;  
+    background-clip: text;
+    color: transparent;
+}
+
+.linear1-text-gradient {
+    background: linear-gradient(to right, #1d0730, #a638c2, #65085c);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+}
+.linear3-text-gradient{
+    background: linear-gradient(to right , #94479d,  #07026d);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+
+}
+
+
+.ContactGrad{
+    width:100%;
+    background-image: linear-gradient(to bottom right, #07026d,#8d198d, #b66cbf );
+}
+.ImgBlock{
+    width:500px;
+    height:500px;
+    background-image: linear-gradient(to bottom,blue,#4c0778, purple);
+    border-radius: 15%;
+}
+.navList{
+    list-style-type: none;
+
+}
+.Footer{
+    padding-top: 70px!important;
+}
+.FooterBottom{
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+
+/*  *********Project css********** */
+.ProjectCard{
+    box-shadow: 4px 4px 4px 4px rgb(158, 156, 156);
+    margin-left: 25%;
+    margin-bottom: 70px;
+    width:50%;
+    height:440px;
+    line-height: 1.8;
+}
+.ProjectCard img{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+}
+.ContactBTN{
+    color: white !important;
+    border: 1px solid white !important;
+    border-radius: 15px;
+    margin-left: 43%;;
+
+}
+.ContactBTN:link{
+    background-color: transparent;
+    color: white;
+    border:white;
+}
+.ContactBTN:hover{
+    background-color: white;
+    color:black !important;
+   
+}
+
+/* Contact Form */
+.ContactForm{
+    width:60%;
+    margin-left: 20%;
+}
